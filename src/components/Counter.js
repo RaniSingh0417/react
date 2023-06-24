@@ -7,6 +7,14 @@ import RemoveCircleIcon from "@mui/icons-material/RemoveCircle";
 
 let Counter = () => {
   const [counter, setcounter] = useState(0);
+  // const [level, setlevel] = useState("LOW");
+  // if (counter < 5) {
+  //   setlevel("LOW");
+  // } else if (counter >= 5 && counter < 20) {
+  //   setlevel("MEDIUM");
+  // } else {
+  //   setlevel("HIGH");
+  // }
   let level = "LOW";
 
   if (counter < 5 && counter >= 0) {
