@@ -10,7 +10,8 @@
 // import Heading from "./components/Heading";
 // import Content from "./components/Content";
 // import Counter from "./components/Counter";
-import Object from "./components/Object";
+import ConditionalRendering from "./components/Conditionalrendering";
+// import Object from "./components/Object";
 const App = () => {
   return (
     <>
@@ -19,7 +20,8 @@ const App = () => {
       {/* <Content /> */}
       {/* <Footer /> */}
       {/* <Counter /> */}
-      <Object />
+      {/* <Object /> */}
+      <ConditionalRendering />
     </>
   );
 };

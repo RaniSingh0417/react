@@ -1,0 +1,32 @@
+html {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    /* position: relative; */
+    /* padding-bottom: 3rem; */
+    margin: 0;
+    /* padding: 0; */
+    text-align: center;
+    width: 100%;
+    color: azure;
+    background: rgb(122, 151, 122);
+    /* background: linear-gradient(106.7deg, rgb(245, 167, 191) -6.2%, rgb(201, 218, 238) 46.4%, rgb(164, 240, 229) 86.4%); */
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.conditional-render {
+    margin-top: 270px;
+}
+
+.btn {
+    background: whitesmoke;
+}
