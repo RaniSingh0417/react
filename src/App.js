@@ -1,5 +1,7 @@
 // import "./App.css";
 
+// import Practice from "./components/Practice";
+
 // function App() {
 //   return <div className="App"></div>;
 // }
@@ -10,8 +12,10 @@
 // import Heading from "./components/Heading";
 // import Content from "./components/Content";
 // import Counter from "./components/Counter";
-import ConditionalRendering from "./components/Conditionalrendering";
+// import ConditionalRendering from "./components/Conditionalrendering";
 // import Object from "./components/Object";
+import Array from "./components/Array";
+
 const App = () => {
   return (
     <>
@@ -21,7 +25,9 @@ const App = () => {
       {/* <Footer /> */}
       {/* <Counter /> */}
       {/* <Object /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      {/* <Practice /> */}
+      <Array />
     </>
   );
 };
