@@ -17,17 +17,6 @@ const Array = () => {
     settoggle(!toggle);
   };
 
-  const removeGkp = () => {
-    const newCity = [...city];
-    let index = newCity.indexOf("Gorakhpur");
-    for (let candidate of newCity) {
-      if (candidate === "Gorakhpur") {
-        newCity.splice(index, 1);
-      }
-    }
-
-    setCity(newCity);
-  };
   return (
     <>
       <p>This is the list of fruits</p>
@@ -46,5 +35,5 @@ const Array = () => {
       </button>
     </>
   );
-};
+}
 export default Array;
