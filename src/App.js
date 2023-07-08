@@ -15,6 +15,9 @@
 // import ConditionalRendering from "./components/Conditionalrendering";
 // import Object from "./components/Object";
 import Array from "./components/Array";
+import ArrayOfObject from "./components/ArrayOfObject";
+import Studentmanag from "./components/Studentmanag";
+import Taskmanagement from "./components/Taskmanagement";
 
 const App = () => {
   return (
@@ -27,7 +30,10 @@ const App = () => {
       {/* <Object /> */}
       {/* <ConditionalRendering /> */}
       {/* <Practice /> */}
-      <Array />
+      {/* <Array /> */}
+      {/* <ArrayOfObject /> */}
+      {/* <Studentmanag /> */}
+      <Taskmanagement />
     </>
   );
 };
